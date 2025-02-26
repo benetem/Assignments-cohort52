@@ -20,7 +20,11 @@ instead!
 3. Complete the unit test functions and verify that all is working as expected.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  // TODO complete this object
+  beers: 2.99,
+  chips: 3.49,
+  soda: 6.0,
+  pizzas: 2.25,
+  iceCream: 1.99,
 };
 
 function calculateTotalPrice(/* TODO parameter(s) go here */) {
