@@ -11,7 +11,7 @@
 Test Suites: 1 passed, 1 total
 Tests:       5 passed, 5 total
 Snapshots:   0 total
-Time:        0.193 s, estimated 1 s
+Time:        0.244 s, estimated 1 s
 Ran all test suites matching /\/Users\/benetem\/HYF\/Assignments-cohort52\/.dist\/1-JavaScript\/Week3\/unit-tests\/ex5-wallet.test.js/i.
 No linting errors detected.
 No spelling errors detected.

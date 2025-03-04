@@ -3,7 +3,7 @@
  PASS  1-JavaScript/Week3/assignment/ex2-mondaysWorth.test.js
   js-wk3-mondaysWorth
     ✅ computeEarnings should take two parameters (1 ms)
-    ✅ computeEarnings should compute the earnings as a formatted Euro amount (1 ms)
+    ✅ computeEarnings should compute the earnings as a formatted Euro amount
 
 Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
