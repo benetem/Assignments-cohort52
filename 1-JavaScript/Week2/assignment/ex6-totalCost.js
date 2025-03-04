@@ -27,19 +27,26 @@ const cartForParty = {
   iceCream: 1.99,
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
+function calculateTotalPrice(cart) {
+  let total = 0;
+  Object.values(cart).forEach((value) => {
+    total += value;
+  });
+  return `Total: €${total.toFixed(2)}`;
 }
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log('\nTest 1: calculateTotalPrice should take one parameter');
-  // TODO replace this comment with your code
+  const parameterCount = 1;
+  console.assert(parameterCount === calculateTotalPrice.length);
 }
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  // TODO replace this comment with your code
+  const expected = `Total: €16.72`;
+  const actual = calculateTotalPrice(cartForParty);
+  console.assert(expected === actual);
 }
 
 function test() {

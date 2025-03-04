@@ -29,25 +29,9 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
-
-  /* let newEmployeeRecords = [];
-  for (let employee of employeeRecords) {
-    let { name, occupation, email } = employee;
-    newEmployeeRecords.push({ name, occupation, email });
-  }
-  return newEmployeeRecords; */
-
-  /* let newEmployeeRecords = employeeRecords.map(
-    ({ name, occupation, email }) => ({ name, occupation, email })
-  );
-  return newEmployeeRecords; */
-  let newEmployeeRecords = employeeRecords.map(function filterPrivateData({
-    name,
-    occupation,
-    email,
-  }) {
+function filterPrivateData(employees) {
+  let newEmployeeRecords = employees.map((employee) => {
+    const { name, occupation, email } = employee;
     return { name, occupation, email };
   });
   return newEmployeeRecords;
