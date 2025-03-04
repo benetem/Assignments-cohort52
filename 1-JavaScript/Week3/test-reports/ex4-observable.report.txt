@@ -2,9 +2,9 @@
 
  PASS  1-JavaScript/Week3/assignment/ex4-observable/ex4-observable.test.js
   js-wk3-ex4-observable
-    ✅ createObservable should exist and be a function (1 ms)
-    ✅ createObservable should return an object with `subscribe` and a `notify` function properties (1 ms)
-    ✅ observable should notify all subscribers of any notification
+    ✅ createObservable should exist and be a function
+    ✅ createObservable should return an object with `subscribe` and a `notify` function properties
+    ✅ observable should notify all subscribers of any notification (1 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       3 passed, 3 total

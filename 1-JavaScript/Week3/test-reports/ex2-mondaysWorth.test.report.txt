@@ -8,7 +8,7 @@
 Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 Snapshots:   0 total
-Time:        0.166 s, estimated 1 s
+Time:        0.223 s, estimated 1 s
 Ran all test suites matching /\/Users\/benetem\/HYF\/Assignments-cohort52\/1-JavaScript\/Week3\/assignment\/ex2-mondaysWorth.test.js/i.
 No linting errors detected.
 No spelling errors detected.
