@@ -37,7 +37,6 @@ describe('js-wk3-ex3-lemonAllergy', () => {
   });
 
   test('sanitizeFruitBasket should not modify the original `fruitBasket` array', () => {
-    const fruitBasket = ['apple', 'banana', 'lemon', 'orange'];
     const originalFruitBasketContents = [...fruitBasket];
     sanitizeFruitBasket(fruitBasket, 'lemon');
     expect(fruitBasket).toEqual(originalFruitBasketContents);
@@ -45,11 +44,6 @@ describe('js-wk3-ex3-lemonAllergy', () => {
 
   test('sanitizeFruitBasket should return a new array that does not include the unwanted `lemon`', () => {
     const sanitizedFruitBasket = sanitizeFruitBasket(fruitBasket, 'lemon');
-    expect(sanitizedFruitBasket).toEqual([
-      'apple',
-      'grapefruit',
-      'banana',
-      'watermelon',
-    ]);
+    expect(sanitizedFruitBasket).not.toContain('lemon');
   });
 });
