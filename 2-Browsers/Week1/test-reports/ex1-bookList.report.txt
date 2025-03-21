@@ -1,0 +1,32 @@
+*** Unit Test Error Report ***
+
+Command failed: npx jest /Users/benetem/HYF/Assignments-cohort52/.dist/2-Browsers/Week1/unit-tests/ex1-bookList.test.js --colors --noStackTrace --json
+ FAIL  .dist/2-Browsers/Week1/unit-tests/ex1-bookList.test.js
+  br-wk1-ex1-bookList
+    ❌ HTML should be syntactically valid (90 ms)
+    ✅ should have all TODO comments removed
+    ✅ should contain a <ul> that is a child of <div id="bookList"> (1 ms)
+    ✅ should contain a <ul> with 3 <li> elements
+    ✅ should contain an <li> with title and author for each book of the `myBooks` array (1 ms)
+    ✅ should contain an <img> element for each book
+
+  ● br-wk1-ex1-bookList › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      11:183  error  <img> is missing required \"alt\" attribute  wcag/h37
+      11:419  error  <img> is missing required \"alt\" attribute  wcag/h37
+      11:646  error  <img> is missing required \"alt\" attribute  wcag/h37·
+    ✖ 3 problems (3 errors, 0 warnings)
+    "
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 passed, 6 total
+Snapshots:   0 total
+Time:        2.179 s, estimated 7 s
+Ran all test suites matching /\/Users\/benetem\/HYF\/Assignments-cohort52\/.dist\/2-Browsers\/Week1\/unit-tests\/ex1-bookList.test.js/i.
+No linting errors detected.
+No spelling errors detected.
